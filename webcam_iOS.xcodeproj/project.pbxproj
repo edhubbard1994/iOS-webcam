@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3B1BC65247053AF0004E442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B1BC64247053AF0004E442 /* AppDelegate.swift */; };
+		D3B1BC67247053AF0004E442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B1BC66247053AF0004E442 /* SceneDelegate.swift */; };
+		D3B1BC69247053AF0004E442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B1BC68247053AF0004E442 /* ViewController.swift */; };
+		D3B1BC6C247053AF0004E442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B1BC6A247053AF0004E442 /* Main.storyboard */; };
+		D3B1BC6E247053B60004E442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B1BC6D247053B60004E442 /* Assets.xcassets */; };
+		D3B1BC71247053B60004E442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B1BC6F247053B60004E442 /* LaunchScreen.storyboard */; };
+		D3B1BC7C247053B60004E442 /* webcam_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B1BC7B247053B60004E442 /* webcam_iOSTests.swift */; };
+		D3B1BC87247053B60004E442 /* webcam_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B1BC86247053B60004E442 /* webcam_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3B1BC78247053B60004E442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3B1BC59247053AE0004E442 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3B1BC60247053AF0004E442;
+			remoteInfo = webcam_iOS;
+		};
+		D3B1BC83247053B60004E442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3B1BC59247053AE0004E442 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3B1BC60247053AF0004E442;
+			remoteInfo = webcam_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3B1BC61247053AF0004E442 /* webcam_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webcam_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B1BC64247053AF0004E442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3B1BC66247053AF0004E442 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3B1BC68247053AF0004E442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3B1BC6B247053AF0004E442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3B1BC6D247053B60004E442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3B1BC70247053B60004E442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3B1BC72247053B60004E442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B1BC77247053B60004E442 /* webcam_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webcam_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B1BC7B247053B60004E442 /* webcam_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webcam_iOSTests.swift; sourceTree = "<group>"; };
+		D3B1BC7D247053B60004E442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B1BC82247053B60004E442 /* webcam_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webcam_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B1BC86247053B60004E442 /* webcam_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webcam_iOSUITests.swift; sourceTree = "<group>"; };
+		D3B1BC88247053B60004E442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3B1BC5E247053AF0004E442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B1BC74247053B60004E442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B1BC7F247053B60004E442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3B1BC58247053AE0004E442 = {
+			isa = PBXGroup;
+			children = (
+				D3B1BC63247053AF0004E442 /* webcam_iOS */,
+				D3B1BC7A247053B60004E442 /* webcam_iOSTests */,
+				D3B1BC85247053B60004E442 /* webcam_iOSUITests */,
+				D3B1BC62247053AF0004E442 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3B1BC62247053AF0004E442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3B1BC61247053AF0004E442 /* webcam_iOS.app */,
+				D3B1BC77247053B60004E442 /* webcam_iOSTests.xctest */,
+				D3B1BC82247053B60004E442 /* webcam_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3B1BC63247053AF0004E442 /* webcam_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D3B1BC64247053AF0004E442 /* AppDelegate.swift */,
+				D3B1BC66247053AF0004E442 /* SceneDelegate.swift */,
+				D3B1BC68247053AF0004E442 /* ViewController.swift */,
+				D3B1BC6A247053AF0004E442 /* Main.storyboard */,
+				D3B1BC6D247053B60004E442 /* Assets.xcassets */,
+				D3B1BC6F247053B60004E442 /* LaunchScreen.storyboard */,
+				D3B1BC72247053B60004E442 /* Info.plist */,
+			);
+			path = webcam_iOS;
+			sourceTree = "<group>";
+		};
+		D3B1BC7A247053B60004E442 /* webcam_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3B1BC7B247053B60004E442 /* webcam_iOSTests.swift */,
+				D3B1BC7D247053B60004E442 /* Info.plist */,
+			);
+			path = webcam_iOSTests;
+			sourceTree = "<group>";
+		};
+		D3B1BC85247053B60004E442 /* webcam_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3B1BC86247053B60004E442 /* webcam_iOSUITests.swift */,
+				D3B1BC88247053B60004E442 /* Info.plist */,
+			);
+			path = webcam_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3B1BC60247053AF0004E442 /* webcam_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B1BC8B247053B60004E442 /* Build configuration list for PBXNativeTarget "webcam_iOS" */;
+			buildPhases = (
+				D3B1BC5D247053AF0004E442 /* Sources */,
+				D3B1BC5E247053AF0004E442 /* Frameworks */,
+				D3B1BC5F247053AF0004E442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webcam_iOS;
+			productName = webcam_iOS;
+			productReference = D3B1BC61247053AF0004E442 /* webcam_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3B1BC76247053B60004E442 /* webcam_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B1BC8E247053B60004E442 /* Build configuration list for PBXNativeTarget "webcam_iOSTests" */;
+			buildPhases = (
+				D3B1BC73247053B60004E442 /* Sources */,
+				D3B1BC74247053B60004E442 /* Frameworks */,
+				D3B1BC75247053B60004E442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3B1BC79247053B60004E442 /* PBXTargetDependency */,
+			);
+			name = webcam_iOSTests;
+			productName = webcam_iOSTests;
+			productReference = D3B1BC77247053B60004E442 /* webcam_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3B1BC81247053B60004E442 /* webcam_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B1BC91247053B60004E442 /* Build configuration list for PBXNativeTarget "webcam_iOSUITests" */;
+			buildPhases = (
+				D3B1BC7E247053B60004E442 /* Sources */,
+				D3B1BC7F247053B60004E442 /* Frameworks */,
+				D3B1BC80247053B60004E442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3B1BC84247053B60004E442 /* PBXTargetDependency */,
+			);
+			name = webcam_iOSUITests;
+			productName = webcam_iOSUITests;
+			productReference = D3B1BC82247053B60004E442 /* webcam_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3B1BC59247053AE0004E442 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Edward Hubbard";
+				TargetAttributes = {
+					D3B1BC60247053AF0004E442 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					D3B1BC76247053B60004E442 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D3B1BC60247053AF0004E442;
+					};
+					D3B1BC81247053B60004E442 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D3B1BC60247053AF0004E442;
+					};
+				};
+			};
+			buildConfigurationList = D3B1BC5C247053AE0004E442 /* Build configuration list for PBXProject "webcam_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3B1BC58247053AE0004E442;
+			productRefGroup = D3B1BC62247053AF0004E442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3B1BC60247053AF0004E442 /* webcam_iOS */,
+				D3B1BC76247053B60004E442 /* webcam_iOSTests */,
+				D3B1BC81247053B60004E442 /* webcam_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3B1BC5F247053AF0004E442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B1BC71247053B60004E442 /* LaunchScreen.storyboard in Resources */,
+				D3B1BC6E247053B60004E442 /* Assets.xcassets in Resources */,
+				D3B1BC6C247053AF0004E442 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B1BC75247053B60004E442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B1BC80247053B60004E442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3B1BC5D247053AF0004E442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B1BC69247053AF0004E442 /* ViewController.swift in Sources */,
+				D3B1BC65247053AF0004E442 /* AppDelegate.swift in Sources */,
+				D3B1BC67247053AF0004E442 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B1BC73247053B60004E442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B1BC7C247053B60004E442 /* webcam_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B1BC7E247053B60004E442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B1BC87247053B60004E442 /* webcam_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3B1BC79247053B60004E442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3B1BC60247053AF0004E442 /* webcam_iOS */;
+			targetProxy = D3B1BC78247053B60004E442 /* PBXContainerItemProxy */;
+		};
+		D3B1BC84247053B60004E442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3B1BC60247053AF0004E442 /* webcam_iOS */;
+			targetProxy = D3B1BC83247053B60004E442 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3B1BC6A247053AF0004E442 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B1BC6B247053AF0004E442 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3B1BC6F247053B60004E442 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B1BC70247053B60004E442 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3B1BC89247053B60004E442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3B1BC8A247053B60004E442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3B1BC8C247053B60004E442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U5B4894Z5;
+				INFOPLIST_FILE = webcam_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edhubbard.webcam-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3B1BC8D247053B60004E442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U5B4894Z5;
+				INFOPLIST_FILE = webcam_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edhubbard.webcam-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3B1BC8F247053B60004E442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U5B4894Z5;
+				INFOPLIST_FILE = webcam_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edhubbard.webcam-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webcam_iOS.app/webcam_iOS";
+			};
+			name = Debug;
+		};
+		D3B1BC90247053B60004E442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U5B4894Z5;
+				INFOPLIST_FILE = webcam_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edhubbard.webcam-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webcam_iOS.app/webcam_iOS";
+			};
+			name = Release;
+		};
+		D3B1BC92247053B60004E442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U5B4894Z5;
+				INFOPLIST_FILE = webcam_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edhubbard.webcam-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = webcam_iOS;
+			};
+			name = Debug;
+		};
+		D3B1BC93247053B60004E442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U5B4894Z5;
+				INFOPLIST_FILE = webcam_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edhubbard.webcam-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = webcam_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3B1BC5C247053AE0004E442 /* Build configuration list for PBXProject "webcam_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B1BC89247053B60004E442 /* Debug */,
+				D3B1BC8A247053B60004E442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B1BC8B247053B60004E442 /* Build configuration list for PBXNativeTarget "webcam_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B1BC8C247053B60004E442 /* Debug */,
+				D3B1BC8D247053B60004E442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B1BC8E247053B60004E442 /* Build configuration list for PBXNativeTarget "webcam_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B1BC8F247053B60004E442 /* Debug */,
+				D3B1BC90247053B60004E442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B1BC91247053B60004E442 /* Build configuration list for PBXNativeTarget "webcam_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B1BC92247053B60004E442 /* Debug */,
+				D3B1BC93247053B60004E442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3B1BC59247053AE0004E442 /* Project object */;
+}
