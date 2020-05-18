@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         
         let device = AVCaptureDevice.default(.builtInDualCamera,for: .video, position: .front)
         guard
-            let videoDeviceInput = try? AVCaptureDeviceInput(device: device!) as! AVCaptureInput,
+            let videoDeviceInput = try? AVCaptureDeviceInput(device: device!) as AVCaptureInput,
             self.session!.canAddInput(videoDeviceInput)
         else { return false }
         self.session!.addInput(videoDeviceInput)

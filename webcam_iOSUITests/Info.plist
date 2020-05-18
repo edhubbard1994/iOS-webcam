@@ -22,5 +22,7 @@
 	<string>IDK</string>
 	<key>NSCameraUsageDescription</key>
 	<string>In order to access video for video chat</string>
+	<key></key>
+	<string></string>
 </dict>
 </plist>
