@@ -18,17 +18,28 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print(AVCaptureDevice.authorizationStatus(for: .video).rawValue)
+        self.getVideoWindow()
         AVCaptureDevice.requestAccess(for: .video, completionHandler: { (didComplete) in
-            if (!didComplete) { return }
-            self.startCamera()
-        })
-        getVideoWindow()
-        self.session?.startRunning()
+            DispatchQueue.main.async {
+                if (!didComplete) { return }
+                if (self.startCamera() == false) {print("failure")}
+                
+                self.vidView?.videoPreviewLayer.session = self.session
+            }
+            
+            print(self.session)
+
+            })
+        
+       
     }
     
     func getVideoWindow() -> Void {
-        self.vidView = PreviewView()
-        self.vidView?.videoPreviewLayer.session = self.session
+        self.vidView = PreviewView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
+        self.vidView?.contentMode = UIView.ContentMode.scaleAspectFit
+        //self.vidView?.videoPreviewLayer.session = self.session
+        
+        self.view.addSubview(self.vidView!)
     }
     
     func startCamera() -> Bool {
@@ -36,7 +47,7 @@ class ViewController: UIViewController {
         
         self.session = AVCaptureSession()
         
-        let device = AVCaptureDevice.default(.builtInDualCamera,for: .video, position: .front)
+        let device = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .front)
         guard
             let videoDeviceInput = try? AVCaptureDeviceInput(device: device!) as AVCaptureInput,
             self.session!.canAddInput(videoDeviceInput)
@@ -47,13 +58,14 @@ class ViewController: UIViewController {
         let soundOutput = AVCaptureAudioDataOutput()
         guard self.session!.canAddOutput(videoOutput) else { return false }
         guard self.session!.canAddOutput(soundOutput) else { return false }
-        self.session!.sessionPreset = .hd1280x720
+        self.session!.sessionPreset = .vga640x480
         self.session!.addOutput(videoOutput)
         self.session!.addOutput(soundOutput)
         self.session!.commitConfiguration()
-        
+        self.session!.startRunning()
         return true
     }
+    
 }
 
 
