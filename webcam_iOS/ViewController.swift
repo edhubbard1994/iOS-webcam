@@ -25,9 +25,10 @@ class ViewController: UIViewController {
                 if (self.startCamera() == false) {print("failure")}
                 
                 self.vidView?.videoPreviewLayer.session = self.session
+                print(self.session?.outputs[0])
             }
             
-            print(self.session)
+            
 
             })
         

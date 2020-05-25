@@ -15,6 +15,7 @@
 		D3B1BC71247053B60004E442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B1BC6F247053B60004E442 /* LaunchScreen.storyboard */; };
 		D3B1BC7C247053B60004E442 /* webcam_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B1BC7B247053B60004E442 /* webcam_iOSTests.swift */; };
 		D3B1BC87247053B60004E442 /* webcam_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B1BC86247053B60004E442 /* webcam_iOSUITests.swift */; };
+		D3B1BC95247BB24D0004E442 /* GetMediaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B1BC94247BB24D0004E442 /* GetMediaData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D3B1BC82247053B60004E442 /* webcam_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webcam_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B1BC86247053B60004E442 /* webcam_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webcam_iOSUITests.swift; sourceTree = "<group>"; };
 		D3B1BC88247053B60004E442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B1BC94247BB24D0004E442 /* GetMediaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMediaData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				D3B1BC64247053AF0004E442 /* AppDelegate.swift */,
+				D3B1BC94247BB24D0004E442 /* GetMediaData.swift */,
 				D3B1BC66247053AF0004E442 /* SceneDelegate.swift */,
 				D3B1BC68247053AF0004E442 /* ViewController.swift */,
 				D3B1BC6A247053AF0004E442 /* Main.storyboard */,
@@ -262,6 +265,7 @@
 				D3B1BC69247053AF0004E442 /* ViewController.swift in Sources */,
 				D3B1BC65247053AF0004E442 /* AppDelegate.swift in Sources */,
 				D3B1BC67247053AF0004E442 /* SceneDelegate.swift in Sources */,
+				D3B1BC95247BB24D0004E442 /* GetMediaData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
